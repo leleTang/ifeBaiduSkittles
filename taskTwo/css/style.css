@@ -1,0 +1,163 @@
+
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	body{
+		font-family: Arial, Helvetica, sans-serif;
+		background-color: #dedede;
+	}
+	/* 综合 */
+	.frame-title{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 20px;
+		width: 96%;
+		height: auto;
+		box-shadow: 4px 2px 6px #333;
+		background: #fff;
+	}
+	.frame-title-content h2{
+		font-weight: bold;
+		line-height: 50px;
+	}
+	.frame-title-content h3{
+		line-height: 20px;
+		color: #787d83;
+	}
+	.frame-title-content span{
+		line-height: 50px;
+		color: #787d83;
+		font-size: 12px;
+	}
+	.frame-title-content p{
+		line-height: 30px;
+	}
+	.frame-title-content img{
+		margin: 20px 0px;
+	}
+	.frame-title-content ul{
+		margin-left: 30px;
+		list-style: none;
+	}
+	.frame-title-content ol{
+		font-size: 14px;
+		line-height: 25px;
+		margin-left: 50px;
+	}
+	/* 综合 end*/
+
+	/*头部 */
+	.header{
+		background-color: #333;
+		width: 100%;
+		height: 60px;
+		}
+	.header img{
+		width: 100px;
+		height: 60px;
+		left: 0px;
+	}
+	.header ul {
+		margin-top: 10px;
+		float: right;
+	
+	}
+	.header ul li{
+		float: left;
+		margin:  10px;
+	}
+	.header ul li a{
+		font-weight: bold;
+		color: #fff;
+		text-decoration: none;
+	}
+	/*头部 end*/
+
+	/*文章一级标题*/
+	.frame-title-content{
+		padding: 20px 10px;
+		width: 95%;
+		margin-left: 2%;
+	}
+	/*文章一级标题 end*/
+
+	/*图片*/
+	.frame-title-img h2{
+		font-weight: bold;
+		line-height: 50px;
+	}
+	.frame-title-img {
+	padding: 20px 10px;
+	}
+	.frame-title-img p{
+		margin:10px 0;
+		font-size: 12px;
+	}
+	.title-img{
+		margin-left: 5%;
+		margin-top: 20px;
+		width: 100px;
+		height: 100px;
+		text-align: center;
+		border:1px solid #dedede;
+	}
+	.title-img img{
+		width: 50px;
+		height: 50px;
+	}
+
+	/*图片 end*/
+
+	/*最后一篇文章一级标题*/
+	.frame-title-content table{
+		width: 90%;
+	}
+	.frame-title-content table th{
+		background-color: #dedede;
+	}
+	.bg-f{
+		background-color: #333;
+	}
+	/*最后一篇文章一级标题 end*/
+
+	/*form表单*/
+	.title-form{
+		width: 100%;
+	}
+	.form-title{
+		font-size: 16px;
+		font-weight: bolder;
+		line-height: 10px;
+	}
+	.form-message{
+		margin-left: 30%;
+	}
+	.form-message a,input,select{
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+	.frame-title-content .btn{
+		font-size: 16px;
+		text-align: center;
+		margin:0 auto;
+		color: #fff;
+		font-weight: bold;
+		background-color: #3355d0;
+		border-radius: 10px;
+		padding:5px;
+		width: 100%;
+	}
+	/*form表单 end*/
+
+	/*底部*/
+	.footer{
+		text-align: center;
+		background-color: #333;
+		color: #fff;
+		width:100%;
+		height:40px;
+		margin:0 auto;
+		position:absolute;
+	}
+	/*底部 end*/
