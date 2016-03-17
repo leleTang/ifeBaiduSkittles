@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding:20px;
+}
+
+/*背景DIV*/
+.frame-bg{
+	background-color: #eee;
+}
+/*背景DIV end*/
+
+/*左侧DIV*/
+.frame-left{
+	border: 1px solid #999;
+	width:160px;
+	float:left;
+	}
+.frame-left img{
+	border: 1px solid #999;
+	padding:0;
+	width:80px;
+	height:80px;
+}
+.frame-left a{
+	padding:0;
+}
+/*左侧DIV end*/
+
+/*中间DIV*/
+.frame-middle{
+	padding:0px;
+	border: 1px solid #999;
+	position: relative;
+	margin-left:240px;
+	margin-right:160px;
+}
+/*中间DIV end*/
+
+/*右侧DIV*/
+.frame-right{
+	border: 1px solid #999;
+	padding:0;
+	width: 120px;
+	float:right;
+}
+.frame-right img{
+	width:80px;
+	height:80px;
+}
+/*右侧DIV end*/
