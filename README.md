@@ -1,6 +1,6 @@
 # ifeBaiduSkittles
-百度前端技术学院彩虹糖组
-此为新的任务说明
+#百度前端技术学院彩虹糖组
+<pre>此为新的任务说明
 任务一：面向零基础的HTML代码编写
 任务二：基于任务1的HTML代码，实现简单的CSS代码编写
 任务三：HTML、CSS布局入门，三栏式布局的实践
@@ -13,4 +13,4 @@
 任务十：学习和练习Flex布局
 任务十一：移动Web开发入门，按照设计稿实现一个移动端的页面
 任务十二：CSS 3新特性的小练习
-任务详情请访问http://ife.baidu.com/task/all
+任务详情请访问http://ife.baidu.com/task/all</pre>
