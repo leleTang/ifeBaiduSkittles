@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding:0;
+}
+/*背景*/
+.frame-boss{
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+	/*水平、垂直居中代码*/
+	margin: auto;  
+  	position: absolute;  
+  	top: 0;
+   	left: 0; 
+   	bottom: 0; 
+  	right: 0;
+	/*水平、垂直居中代码 end*/
+	overflow: hidden;
+}
+/*背景 end*/
+/*左半圆*/
+.bg-circular-left{
+	background-color: #fc0;
+	width:100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top:-25%;
+	left: -12%;
+}
+/*左半圆 end*/
+
+/*右半圆*/
+.bg-circular-right{
+	background-color: #fc0;
+	width:100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	bottom:-25%;
+	right: -12%;
+}
+/*右半圆 end*/
