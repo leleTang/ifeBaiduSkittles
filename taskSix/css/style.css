@@ -1,0 +1,472 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*总框架*/
+	.frame-body{
+		padding-left: 22px;
+		padding-right: 22px;
+		text-align: center;
+		margin: 0 auto;
+		width: 980px;
+		height: 1386px;
+	}
+/*总框架 end*/
+
+/*头部*/
+	.frame-head{
+		width: 100%;
+		height: auto;
+		background-color: #fff;
+		border-bottom: 2px solid #938e8c;
+		}
+		/*头部左侧*/
+		.head-left{
+			width: 110px;
+			height: 61px;
+			background-color: #d45d5c;
+		}
+		.head-left a{
+			position: relative;
+			display: block;
+			text-align: left;
+			color: #fff;
+			font-family: "黑体";
+			font-size: 12px;
+		}
+		/*头部左侧 end*/
+	
+		/*头部右侧*/
+		.head-right{
+			margin-top: -13.6px;
+			text-align: right;
+		}
+		.head-right a{
+			color: #d45d5c;
+			font-family: "黑体";
+			font-size: 12px;
+		}
+		/*头部右侧 end*/
+/*头部 end*/
+
+/* 中部 */
+	.frame-middle{
+		margin-top:20px; 
+	}
+			/* 中部-上 */
+			.middle-top{
+				width: 100%;
+			}
+				/*中部-上-左 */
+					.middle-top-left{
+						float: left;
+						background:url(../img/middle-top-left.png);
+						background-size: 641px 301px;
+						width:640px;
+						height: 300px;
+					}
+					.middle-top-left-leftbg{
+						width: 191px;
+						height: 301px;
+						background-color: #264e3b;
+						opacity: 0.7;
+						float: left;
+					}
+					.middle-top-left-rightbg{
+						width: 191px;
+						height: 301px;
+						background-color: #e5b7b7;
+						opacity: 0.7;
+						float: right;
+					}
+				/*中部-上-左 end*/
+
+				/*中部-上-右 */
+					.middle-top-right{
+						text-align: left;
+						float: right;
+						border-top:2px solid #cc8091;
+						width: 203px;
+						height: 301px;
+					}
+					.middle-top-right .about{
+						font-size: 24px;
+						color: #000;
+						font-family: "微软雅黑";
+						line-height: 40px;
+						text-decoration: underline;
+					}
+					.middle-top-right .smart{
+						font-size: 12px;
+						color: #676767;
+						font-family: "楷体";
+						line-height: 10px;
+					}
+					.middle-top-right .big{
+						font-size: 116px;
+						color: #75b86b;
+						font-family: "微软雅黑";
+						font-style:oblique;
+					}
+					.middle-top-right .frame-content{
+						margin-left: 20px;
+						margin-top: -10px;
+						width: 100%;
+						color: #cc8091;
+						font-family: "微软雅黑";
+					}
+					.middle-top-right .frame-content .content-left{
+						font-size: 55px;
+						float: left;
+					}
+					.middle-top-right .frame-content .content-right{
+						float: left;
+						margin-top: 20px;
+						margin-left: 5px;
+					}
+					.middle-top-right .frame-content .content-right .css{
+						font-size: 21px;
+						
+					}
+					.middle-top-right .frame-content .content-right .csssmart{
+						font-size: 12px;
+					}
+				/*中部-上-右 end*/
+				
+			/* 中部-上 end*/
+	
+			/* 中部-中 */
+			.middle-middle{
+				position: relative;
+				margin-top: 30px;
+				width: 100%;
+				height: auto;
+			}
+
+			/*文本框一*/
+				.middle-middle-contentOne{
+					position: relative;
+					width: 200px;
+					height: 140px;
+					float: left;
+					text-align: left;
+				}
+				.middle-middle-contentOne a{
+					font-size: 16px;
+					color: #418c59;
+					font-family: "微软雅黑";
+					font-weight: bold;
+					text-decoration: underline;
+				}
+				.middle-middle-contentOne p{
+					font-size: 12px;
+					color: #767777;
+					font-family: "宋体";
+					line-height: 16px;
+					margin-top: 5px;
+				}
+			/*文本框一 end*/
+
+			/*文本框二*/
+				.middle-middle-contentTwo{
+					position: relative;
+					margin-left: 40px;
+					width: 200px;
+					height: 140px;
+					float: left;
+					text-align: left;
+				}
+				.middle-middle-contentTwo a{
+					font-size: 16px;
+					color: #d2994f;
+					font-family: "微软雅黑";
+					font-weight: bold;
+					text-decoration: underline;
+					}
+				.middle-middle-contentTwo p{
+					font-size: 12px;
+					color: #231815;
+					font-family: "微软雅黑";
+					line-height: 16px;
+					margin-top: 5px;
+					opacity: 0.7;
+					/*filter:alpha(opacity=70);*/
+				}
+			/*文本框二 end*/
+
+			/*文本框三*/
+				.middle-middle-contentThree{
+					text-align: left;
+					position: relative;
+					margin-left: 40px;
+					width: 180px;
+					height: 140px;
+					float: left;
+				}
+				.middle-middle-contentThree-top{
+					width: 80%;
+					height: 30px;
+				}
+				.middle-middle-contentThree-top a{
+					font-size: 16px;
+					color: #cc7680;
+					font-family: "微软雅黑";
+					font-weight: bold;
+					text-decoration: underline;
+				}
+	
+				.middle-middle-contentThree-top p{
+					font-size: 12px;
+					color: #231815;
+					font-family: "微软雅黑";
+					line-height: 20px;
+					margin-top: 5px;
+					opacity: 0.7;
+				}
+				.middle-middle-contentThree-bottom{
+					position: relative;
+					margin-top: 60px;
+					width: 80%;
+					height: 30px;
+					text-align: left;
+				}
+				.middle-middle-contentThree-bottom p{
+					font-size: 12px;
+					font-family: "微软雅黑";
+					opacity: 0.7;
+				}
+				.middle-middle-contentThree-bottom p a{
+					font-size: 12px;
+					color: #cd4a48;
+					font-family: "微软雅黑";
+					font-style:oblique;
+					line-height: 16px;
+				}
+			/*文本框三 end*/
+			/* 中部-中 end*/
+	
+			/* 中部-下 */
+			.middle-footer{
+				margin-top: 40px;
+			}
+				/*中部-下-左*/
+					.middle-footer-left{
+						float: left;
+						width: 415px;
+						height: auto;
+					}
+					/*上部*/
+					.middle-footer-left-top{
+						text-align: left;
+						border-bottom: 2px solid #11456b;
+					}
+					.middle-footer-left-top p{
+						font-size: 42px;
+						color: #11456b;
+						font-family: "黑体";
+						font-weight: bold;
+						font-style:oblique;
+					}
+					.middle-footer-left-top p a{
+						font-size: 72px;
+						color: #f5e327;
+						font-family: "黑体";
+						font-weight: bold;
+						line-height: 16px;
+					}
+					.middle-footer-left-top b{
+						font-size: 33px;
+						color: #11456b;
+						font-family: "黑体";
+						line-height: 50px;
+					}
+					/*上部 end*/
+					/*下部*/
+					.middle-footer-left-bottom{
+						width: 425px;
+						margin-top: 40px;
+						text-align: left;
+					}
+					.middle-footer-left-bottom a{
+						font-size: 70px;
+						color: #f5e327;
+						font-family: "微软雅黑";
+						margin-right: 10px;
+						float: left;
+					}
+					.middle-footer-left-bottom p{
+						font-size: 12px;
+						color: #767777;
+						font-family: "宋体";
+						line-height: 20px;
+						text-indent: 2em;
+					}
+					.middle-footer-left-bottom img{
+						float: right;
+						margin: 10px 0 10px 10px;
+					}
+					/*下部 end*/
+				/*中部-下-左 end*/
+	
+				/*中部-下-右*/
+					.middle-footer-right{
+						width: 458px;
+						float: right;
+						height: auto;
+					}
+						/*上部*/
+						.middle-footer-right-top{
+							width: 458px;
+							height: 275px;
+							background:url(../img/middle-footer-right-top.png);
+							background-size: 458px 275px;
+						}
+						.middle-footer-right-top .frame-content{
+							width: 456px;
+							height: 61px;
+							position: absolute;
+							margin-top: 214px;
+							margin-left: 2px;
+							background-color: #000;
+							opacity: 0.6;
+						}
+						.middle-footer-right-top .content{
+							height: 44px;
+							width: 80%;
+							float: right;
+							text-align: left;
+							margin-top: 10px;
+							border-left: 3px solid #72b16a;
+						}
+						.middle-footer-right-top .content .write{
+							font-size: 26px;
+							margin-left: 10px;
+							color: #fff;
+							font-family: "微软雅黑";
+						}
+						.middle-footer-right-top .content .green{
+							font-size: 12px;
+							color: #72b16a;
+							font-family: "微软雅黑";
+							 font-style:italic;
+							font-weight: bold;
+						}
+						/*上部 end*/
+	
+						/*下部*/
+						.middle-footer-right-bottom{
+							width: 459px;
+							height: 318px;
+							margin-top: 60px;
+							background-color: #eeedd6;
+						}
+							/*下部-上*/
+							.middle-footer-right-bottom-top{
+								padding: 20px;
+							}
+							.middle-footer-right-bottom-top img{
+								margin-right: 5px;
+							}
+							.middle-footer-right-bottom-top p{
+								font-size: 16px;
+								color: #5a5b5b;
+								font-family: "宋体";
+								text-align: left;
+								margin-bottom: 20px;
+							}
+							.middle-footer-right-bottom-top span{
+								font-size: 12px;
+								color: #5a5b5b;
+								text-align: right;
+								font-family: "宋体";
+								font-style:oblique;
+								margin-top: 20px;
+							}
+							/*下部-上 end*/
+
+							/*下部-下*/
+								.middle-footer-right-bottom-bottom{
+	
+								}
+								/*左*/
+								.middle-footer-right-bottom-bottom .bottom-bottom-left{
+									width: 255px;
+									height: 160px;
+									background-color: #d45d5c;
+									float: left;
+									padding: 5px;
+								}
+								.middle-footer-right-bottom-bottom .bottom-bottom-left p{
+									font-size: 110px;
+									color: #fff;
+									font-family: "微软雅黑";
+									float: left;
+
+								}
+								.middle-footer-right-bottom-bottom .bottom-bottom-left .content{
+									width: 170px;									
+									margin-top: 30px;
+									margin-left: 10px;
+									text-align: left;
+									float: left;
+									border-left: 2px solid #fff;
+								}
+								.middle-footer-right-bottom-bottom .bottom-bottom-left .content .big{
+									font-size: 21px;
+									color: #fff;
+									font-family: "黑体";
+									font-style: oblique;
+									line-height: 24px;
+									margin-left: 10px;
+								}
+								.middle-footer-right-bottom-bottom .bottom-bottom-left .content .smart{
+									font-size: 12px;
+									color: #fff;
+									font-family: "黑体";
+									line-height: 16px;
+									margin-left: 10px;
+								}
+
+								/*左 end*/
+
+								/*右*/
+								.middle-footer-right-bottom-bottom .bottom-bottom-right{
+									width: 180px;
+									height: 160px;
+									padding: 5px;
+									float: right;
+								}
+								.middle-footer-right-bottom-bottom .bottom-bottom-right p{
+									font-size: 14px;
+									color: #5a5b5b;
+									font-family: "黑体";
+									font-style: oblique;
+								}
+								.middle-footer-right-bottom-bottom .bottom-bottom-right p span{
+									font-size: 72px;
+									color: #d45d5c;
+									font-family: "黑体";
+									float: left;
+								}
+								/*右 end*/
+							/*下部-下 end*/
+						/*下部 end*/
+				/*中部-下-右 end*/
+			/* 中部-下 end*/
+/*中部 end*/
+
+/*脚部*/
+	.frame-footer{
+		width: 100%;
+		height: auto;
+		margin-top: 40px;
+		background-color: #fff;
+		border-top: 1px solid #938e8c;
+	}
+	.frame-footer p{
+		font-size: 12px;
+		color: #d45d5c;
+		font-family: "黑体";
+		text-align: right;
+	}
+/* 脚部 end */
