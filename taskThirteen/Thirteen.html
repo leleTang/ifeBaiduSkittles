@@ -3,7 +3,6 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>任务六：通过HTML及CSS模拟报纸排版</title>
-  <script type="text/javascript" src="js/jquery-1.10.0.js"></script>
   
 </head>
 <body>
@@ -15,15 +14,22 @@
 
 <script type="text/javascript">
 
-(function() {
-  /*  
-  在注释下方写下代码
-  给按钮button绑定一个点击事件
-  在事件处理函数中
-  获取aqi-input输入的值，并显示在aqi-display中
-  */
- var quality=document.getElementById("aqi-display");
- 
+ (function() {
+    
+  // 在注释下方写下代码
+  // 给按钮button绑定一个点击事件
+  // 在事件处理函数中
+  // 获取aqi-input输入的值，并显示在aqi-display中
+  
+  
+  function confirm(){
+    //获取aqi-input输入的值
+    var input = document.getElementById('aqi-input').value;
+    //显示在aqi-display中
+    document.getElementById("aqi-display").innerHTML = input;
+  }
+  // 绑定单击事件
+  document.getElementById('button').addEventListener("click",confirm,false);
 })();
 
 </script>
